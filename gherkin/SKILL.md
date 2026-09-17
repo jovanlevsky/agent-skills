@@ -1,11 +1,11 @@
 ---
 name: gherkin
-description: Creates gherkin tests for user-proposed feature using information given by user by interviewing them when a user asks to plan the implementation of a feature.
+description: Creates gherkin tests for user-proposed feature using information given by user by interviewing them when a user asks to "plan a feature," "plan an implementation," or "write gherkins."
 ---
 
 # Gherkin Interview
 
-Interview the user before writing Gherkin scenarios when requirements are incomplete or ambiguous.
+Interview the user before writing Gherkin scenarios.
 
 ## Interview Rules
 
@@ -35,6 +35,9 @@ Ask only the topics that are still unknown, adapting the choices to the user's f
 - Prefer concrete examples over vague wording.
 - Include `And` only when it improves readability.
 - Do not invent business rules that the user has not confirmed; ask about them first.
-- Write the gherkin tests to a `gherkin.md` file.
+- Write the gherkin tests to an `.md` file.
+- Naming convention is as follows:
+  - Features: `feat-[name]-gherkins.md`
+  - Fixes/bugs: `fix-[bug]-gherkins.md`
 - Store in dedicated `/gherkin/` directory at the root of the project. If it doesn't exist, create it.
 
