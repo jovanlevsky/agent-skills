@@ -1,6 +1,6 @@
 ---
 name: gherkin
-description: Creates gherkin tests for user-proposed feature using information given by user by interviewing them when a user asks to "plan a feature," "plan an implementation," or "write gherkins."
+description: Creates gherkin tests for user-proposed feature using information given by user by interviewing them when a user asks to "plan a feature," "plan an implementation," or "write gherkins." Can also be invoked by the planner skill.As
 ---
 
 # Gherkin Interview
