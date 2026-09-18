@@ -91,3 +91,8 @@ After completion, read and use the generated artifact:
 - Gherkin: `gherkin/feat-[name]-gherkins.md`
 - UI wireframe: `wireframe-[feature-name].swift`
 - Design system: `DesignSystemGallery.swift`
+
+## Git hygiene and user awareness
+
+- Ask for confirmation before creating or pushing a branch.
+- Never push to `origin` without explicit user approval.
